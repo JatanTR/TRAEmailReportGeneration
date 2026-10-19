@@ -1,0 +1,1443 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mobile Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 19, 2026 08:00:48 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">NewsTest</a><a class="dropdown-item" href="#">AdminPanelUtilityTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnNewsButton</p>
+            <p class="text-sm">
+              <span>8:00:58 AM</span> / <span>00:00:02:319</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnNewsButton</h5>
+<span class='badge badge-success'>10.19.2026 8:00:58 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:00 AM</span>
+<span class='badge badge-default'>00:00:02:319</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:58 AM</td>
+        <td>
+          Test Started: clickOnNewsButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:00 AM</td>
+        <td>
+          Test Case Passed: clickOnNewsButton
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">headerVerifyNewsOnNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:01 AM</span> / <span>00:00:00:267</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">headerVerifyNewsOnNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:01 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:01 AM</span>
+<span class='badge badge-default'>00:00:00:267</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:01 AM</td>
+        <td>
+          Test Started: headerVerifyNewsOnNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:01 AM</td>
+        <td>
+          Test Case Passed: headerVerifyNewsOnNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickAndVerifyAllNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:01 AM</span> / <span>00:00:01:638</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickAndVerifyAllNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:01 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:03 AM</span>
+<span class='badge badge-default'>00:00:01:638</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:01 AM</td>
+        <td>
+          Test Started: clickAndVerifyAllNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:03 AM</td>
+        <td>
+          Test Case Passed: clickAndVerifyAllNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickAndVerifyTopStoriesNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:03 AM</span> / <span>00:00:01:088</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickAndVerifyTopStoriesNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:03 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:04 AM</span>
+<span class='badge badge-default'>00:00:01:088</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:03 AM</td>
+        <td>
+          Test Started: clickAndVerifyTopStoriesNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:04 AM</td>
+        <td>
+          Test Case Passed: clickAndVerifyTopStoriesNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickAndVerifyTrendingNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:04 AM</span> / <span>00:00:01:864</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickAndVerifyTrendingNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:04 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:06 AM</span>
+<span class='badge badge-default'>00:00:01:864</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:04 AM</td>
+        <td>
+          Test Started: clickAndVerifyTrendingNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:06 AM</td>
+        <td>
+          Test Case Passed: clickAndVerifyTrendingNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickAndVerifyMyFeedNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:06 AM</span> / <span>00:00:00:954</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickAndVerifyMyFeedNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:06 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:07 AM</span>
+<span class='badge badge-default'>00:00:00:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:06 AM</td>
+        <td>
+          Test Started: clickAndVerifyMyFeedNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:07 AM</td>
+        <td>
+          Test Case Passed: clickAndVerifyMyFeedNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">scrollToAuto</p>
+            <p class="text-sm">
+              <span>8:01:08 AM</span> / <span>00:00:04:866</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">scrollToAuto</h5>
+<span class='badge badge-success'>10.19.2026 8:01:08 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:12 AM</span>
+<span class='badge badge-default'>00:00:04:866</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:08 AM</td>
+        <td>
+          Test Started: scrollToAuto
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:12 AM</td>
+        <td>
+          Test Case Passed: scrollToAuto
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">headerVerifyNewsListingPage</p>
+            <p class="text-sm">
+              <span>8:01:13 AM</span> / <span>00:00:01:057</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">headerVerifyNewsListingPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:13 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:14 AM</span>
+<span class='badge badge-default'>00:00:01:057</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:13 AM</td>
+        <td>
+          Test Started: headerVerifyNewsListingPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:14 AM</td>
+        <td>
+          Test Case Passed: headerVerifyNewsListingPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLogisticNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:14 AM</span> / <span>00:00:05:507</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLogisticNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:14 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:20 AM</span>
+<span class='badge badge-default'>00:00:05:507</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:14 AM</td>
+        <td>
+          Test Started: verifyLogisticNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:20 AM</td>
+        <td>
+          Test Case Passed: verifyLogisticNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnLogisticNewsPageButton</p>
+            <p class="text-sm">
+              <span>8:01:20 AM</span> / <span>00:00:03:864</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnLogisticNewsPageButton</h5>
+<span class='badge badge-success'>10.19.2026 8:01:20 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:24 AM</span>
+<span class='badge badge-default'>00:00:03:864</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:20 AM</td>
+        <td>
+          Test Started: clickOnLogisticNewsPageButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:24 AM</td>
+        <td>
+          Test Case Passed: clickOnLogisticNewsPageButton
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnNewsDetailPage</p>
+            <p class="text-sm">
+              <span>8:01:24 AM</span> / <span>00:00:12:165</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnNewsDetailPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:24 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:36 AM</span>
+<span class='badge badge-default'>00:00:12:165</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:24 AM</td>
+        <td>
+          Test Started: clickOnNewsDetailPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:36 AM</td>
+        <td>
+          Test Case Passed: clickOnNewsDetailPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnViewOfferCTA</p>
+            <p class="text-sm">
+              <span>8:01:37 AM</span> / <span>00:00:00:852</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnViewOfferCTA</h5>
+<span class='badge badge-success'>10.19.2026 8:01:37 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:37 AM</span>
+<span class='badge badge-default'>00:00:00:852</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:37 AM</td>
+        <td>
+          Test Started: clickOnViewOfferCTA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:37 AM</td>
+        <td>
+          Test Case Passed: clickOnViewOfferCTA
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnSelectBrand</p>
+            <p class="text-sm">
+              <span>8:01:38 AM</span> / <span>00:00:00:954</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnSelectBrand</h5>
+<span class='badge badge-success'>10.19.2026 8:01:38 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:38 AM</span>
+<span class='badge badge-default'>00:00:00:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Test Started: clickOnSelectBrand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Test Case Passed: clickOnSelectBrand
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnSelectModel</p>
+            <p class="text-sm">
+              <span>8:01:38 AM</span> / <span>00:00:01:826</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnSelectModel</h5>
+<span class='badge badge-success'>10.19.2026 8:01:38 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:40 AM</span>
+<span class='badge badge-default'>00:00:01:826</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Test Started: clickOnSelectModel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          Test Case Passed: clickOnSelectModel
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">leadFormToNewsPage</p>
+            <p class="text-sm">
+              <span>8:01:40 AM</span> / <span>00:00:13:258</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">leadFormToNewsPage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:40 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:01:54 AM</span>
+<span class='badge badge-default'>00:00:13:258</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:40 AM</td>
+        <td>
+          Test Started: leadFormToNewsPage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:54 AM</td>
+        <td>
+          Test Case Passed: leadFormToNewsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="NewsTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">backToHomePage</p>
+            <p class="text-sm">
+              <span>8:01:54 AM</span> / <span>00:00:11:913</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">backToHomePage</h5>
+<span class='badge badge-success'>10.19.2026 8:01:54 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:02:05 AM</span>
+<span class='badge badge-default'>00:00:11:913</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NewsTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:54 AM</td>
+        <td>
+          Test Started: backToHomePage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:02:05 AM</td>
+        <td>
+          Test Case Passed: backToHomePage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag="AdminPanelUtilityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLeadsViaAdminPanel</p>
+            <p class="text-sm">
+              <span>8:02:07 AM</span> / <span>00:00:11:496</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyLeadsViaAdminPanel</h5>
+<span class='badge badge-success'>10.19.2026 8:02:07 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:02:19 AM</span>
+<span class='badge badge-default'>00:00:11:496</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">AdminPanelUtilityTest</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:07 AM</td>
+        <td>
+          Test Started: verifyLeadsViaAdminPanel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:02:19 AM</td>
+        <td>
+          Test Case FAILED: verifyLeadsViaAdminPanel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:02:19 AM</td>
+        <td>
+          Cause: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://sso.farmjunction.in/auth/google/redirect" class="btn btn-info content-center google">...</a> is not clickable at point (853, 261). Other element would receive the click: <body class="loaded">...</body>
+  (Session info: chrome=155.0.8059.80)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb5a5f220a26eaa14c4bec45a0a262d1, clickElement {id=f.8C6619CEB19B349156F0890262A7C8EF.d.6EE55203A5BB6D4A40EEEDB72E737963.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\AutomationChromeProfile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63769}, goog:processID: 25648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63769/devtoo..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eb5a5f220a26eaa14c4bec45a0a262d1)] -> xpath: //button[contains(normalize-space(),'Login with Google')] | //a[contains(normalize-space(),'Login with Google')]]
+Session ID: eb5a5f220a26eaa14c4bec45a0a262d1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:02:19 AM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+                <a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAJBCAIAAAAiL3noAAAQAElEQVR4nOzdf4yc9X0n8M/s7DrLD9s4kZw6tIkTevi8UAi+0msRp1RGOpBzqjh6RvkhVUX4r6ZCQViKEEhRpEYoEhYRavsXVqpKIRUoKIoUC3SHVVREUKhMyYW1FoXE5EKcWAIbbALBeOee55nfs7O7szuzuzPzfb3YZGeemXlmHnZ49Hze31+Tp988FwAAAMAI2rxluvcnTwQAAACQABEAAAAAJEEEAAAAAEkQAQAAAEASJgMAAAAYF0ePHj158uSOHTv27t3b8ZAIAAAAAMbET37yk5deeim7cerUqe3bt1999dWtjxoIAAAAAOPgt7/97b/+67827ma3sy2tTxABAAAAwDj4wQ9+cP78+cbd7Ha2pfUJIgAAAAAYef/+7//+y1/+smNjtiXb3rgrAgAAAICR9/zzzy+7XQQAAAAAI+8P//APl91eOv3muQAAAABG0OYt070/WS8AAAAASIIIAAAAAJIgAgAAAIAkiAAAAAAgCSIAAAAASMJkAAAAAGPh2WefnZube/vtt7ds2bJr164bb7yx9VGLAgIAAMCoal0U8LHHHnv99ddbH7388stvv/32xl0DAQAAAGDkPfvssx31fybbkm1v3BUBAAAAwMibm5tbdru5AAAAAGDkvf3228tu1wsAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJkwHARqtUKgEwgkqlUgAwOkQAABtgQc3f7RradTUwVLpllR1nM4kAwJATAQCsn5Zr5VLH7w4uooGhU+oa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AABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCSIAAAAACAJIgAAAABIgggAAAAAkiACAAAAgCRMTG4qlyZKAQAAAIyUifLK2vUnS6WYnJqoVCrzF/KfAAAAAIZYqVSaKGf/y2+s6IWTjdeXJ7OfuJAHAfMhCgAAAIAhU5rIi/+J1fbln+y4Xy6XyuVypRIXPpivzEsCAAAAYONNlCfylv/+xvFPdt1qdAAAAABsuKw8z4r/VfT572piyXcqlScnpj5UnpjM3i0AAACA9VGaKJWn8in8i8b/5WvyLVu2LLu9p8kDy+XS1KaytQMAAABgrWXN/lkBPjk1saIx/7t27Vp2+wrWD6iODpjcNFGenBhIDwQAAACgqtoTvyi6V1Nz33jjjZdffnnHxmxLtr35FufeeTdWZX4+nybAlIEAAADQj37m+Z/+0FTr3WeffXZubu7tt9/esmXL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" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+          
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Execution Summary</p>
+            <p class="text-sm">
+              <span>8:02:29 AM</span> / <span>00:00:00:036</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Execution Summary</h5>
+<span class='badge badge-success'>10.19.2026 8:02:29 AM</span>
+<span class='badge badge-danger'>10.19.2026 8:02:29 AM</span>
+<span class='badge badge-default'>00:00:00:036</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Total Tests: 17
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Passed: 16
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Failed: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Skipped: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Total Steps: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Steps Passed: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Steps Failed: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Steps Info: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Start Time: Mon Oct 19 08:00:48 IST 2026
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          End Time: Mon Oct 19 08:02:29 IST 2026
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Total Time Taken: 1m 40s 744ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:29 AM</td>
+        <td>
+          Pass Percentage: 94.12%
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+</span>
+<p class="name">NewsTest</p>
+<p class="duration text-sm">16 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>NewsTest</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:00:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>clickOnNewsButton</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>headerVerifyNewsOnNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>clickAndVerifyAllNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>clickAndVerifyTopStoriesNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>clickAndVerifyTrendingNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>clickAndVerifyMyFeedNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>scrollToAuto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>headerVerifyNewsListingPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>verifyLogisticNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>clickOnLogisticNewsPageButton</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>clickOnNewsDetailPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:37 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>clickOnViewOfferCTA</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>clickOnSelectBrand</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>clickOnSelectModel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>leadFormToNewsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>backToHomePage</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">AdminPanelUtilityTest</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>AdminPanelUtilityTest</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:02:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>verifyLeadsViaAdminPanel</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 19, 2026 08:00:48 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 19, 2026 08:02:29 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>17</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'>
+<b>17</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'><b>16</b> events passed</small></div>
+<div>
+<small data-tooltip='6%'><b>3</b> events failed,
+<b data-tooltip='%'>29</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"clickOnNewsButton":2.319,"headerVerifyNewsOnNewsPage":0.267,"clickAndVerifyAllNewsPage":1.638,"clickAndVerifyTopStoriesNewsPage":1.088,"clickAndVerifyTrendingNewsPage":1.864,"clickAndVerifyMyFeedNewsPage":0.954,"scrollToAuto":4.866,"headerVerifyNewsListingPage":1.057,"verifyLogisticNewsPage":5.507,"clickOnLogisticNewsPageButton":3.864,"clickOnNewsDetailPage":12.165,"clickOnViewOfferCTA":0.852,"clickOnSelectBrand":0.954,"clickOnSelectModel":1.826,"leadFormToNewsPage":13.258,"backToHomePage":11.913,"verifyLeadsViaAdminPanel":11.496,"Execution Summary":0.036
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>NewsTest</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>AdminPanelUtilityTest</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Jatin Kumar</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 17,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 16,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 29
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash === '#failed' || window.location.hash === '#fail') {
+        setTimeout(function() {
+            var failFilter = document.querySelector('#status-toggle [status="fail"]');
+            if (failFilter) {
+                failFilter.click();
+                var firstFail = document.querySelector('.test-item[status="fail"]');
+                if (firstFail) firstFail.click();
+            }
+        }, 350);
+    }
+});</script></body>
+</html>
